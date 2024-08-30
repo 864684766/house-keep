@@ -1,0 +1,91 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/home/index",
+			"style": {
+				"navigationBarTitleText": "首页",
+				"navigationStyle": "custom",
+				"backgroundColor": "#fff"
+			}
+		}
+	],
+	"easycom": {
+		"autoscan": true,
+		"custom": {
+			// uni-ui 规则如下配置
+			"^uni-(.*)": "@dcloudio/uni-ui/lib/uni-$1/uni-$1.vue"
+		}
+	},
+	"tabBar": {
+		"color": "#222",
+		"selectedColor": "#60D2B5",
+		"iconfontSrc": "static/font/iconfont.ttf",
+		"backgroundColor": "fff",
+		"borderStyle": "#F5F6FA",
+		"list": [{
+			"pagePath": "pages/home/index",
+			"text": "首页",
+			"iconfont": {
+				"selectedColor": "#60D2B5",
+				"color": "#222",
+				"text": "\ue601"
+			}
+		}, {
+			"pagePath": "pages/category/index",
+			"text": "全部服务",
+			"iconfont": {
+				"selectedColor": "#60D2B5",
+				"color": "#222",
+				"text": "\ue62f"
+			}
+		}, {
+			"pagePath": "pages/join/index",
+			"text": "加入我们",
+			"iconfont": {
+				"selectedColor": "#60D2B5",
+				"color": "#222",
+				"text": "\ue612"
+			}
+		}, {
+			"pagePath": "pages/my/index",
+			"text": "我的",
+			"iconfont": {
+				"selectedColor": "#60D2B5",
+				"color": "#222",
+				"text": "\ue600"
+			}
+		}]
+	},
+	"subPackages": [{
+		"root": "pages",
+		"pages": [{
+			"path": "category/index",
+			"style": {
+				"navigationBarTitleText": "所有分类"
+			}
+		}]
+	}, {
+		"root": "pages",
+		"pages": [{
+			"path": "join/index",
+			"style": {
+				"navigationBarTitleText": "我想加入"
+			}
+		}]
+	}, {
+		"root": "pages",
+		"pages": [{
+			"path": "my/index",
+			"style": {
+				"navigationBarTitleText": "我的"
+			}
+		}]
+	}],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"uniIdRouter": {}
+}

@@ -1,0 +1,86 @@
+{
+  "id": "4667448",
+  "name": "家政",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "90375",
+      "name": "数码维修",
+      "font_class": "shumaweixiu",
+      "unicode": "e629",
+      "unicode_decimal": 58921
+    },
+    {
+      "icon_id": "6223129",
+      "name": "管道疏通",
+      "font_class": "guandaoshutong",
+      "unicode": "e622",
+      "unicode_decimal": 58914
+    },
+    {
+      "icon_id": "13525712",
+      "name": "07-保洁服务",
+      "font_class": "-baojiefuwu",
+      "unicode": "e71b",
+      "unicode_decimal": 59163
+    },
+    {
+      "icon_id": "27032476",
+      "name": "搬家",
+      "font_class": "banjia",
+      "unicode": "e64a",
+      "unicode_decimal": 58954
+    },
+    {
+      "icon_id": "35951201",
+      "name": "房屋维修",
+      "font_class": "fangwuweixiu",
+      "unicode": "e604",
+      "unicode_decimal": 58884
+    },
+    {
+      "icon_id": "37850176",
+      "name": "家电清洗",
+      "font_class": "jiadianqingxi-01",
+      "unicode": "e60e",
+      "unicode_decimal": 58894
+    },
+    {
+      "icon_id": "1305053",
+      "name": "定位",
+      "font_class": "dingwei",
+      "unicode": "e630",
+      "unicode_decimal": 58928
+    },
+    {
+      "icon_id": "7429",
+      "name": "首页",
+      "font_class": "shouye",
+      "unicode": "e601",
+      "unicode_decimal": 58881
+    },
+    {
+      "icon_id": "201228",
+      "name": "3.1我的",
+      "font_class": "31wode",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "2675010",
+      "name": "分类",
+      "font_class": "fenlei",
+      "unicode": "e62f",
+      "unicode_decimal": 58927
+    },
+    {
+      "icon_id": "9851599",
+      "name": "加入我们",
+      "font_class": "jiaruwomen",
+      "unicode": "e612",
+      "unicode_decimal": 58898
+    }
+  ]
+}
